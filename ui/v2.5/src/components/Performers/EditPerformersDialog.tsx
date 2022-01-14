@@ -205,7 +205,7 @@ export const EditPerformersDialog: React.FC<IListOperationProps> = (
       <Modal
         show
         icon="pencil-alt"
-        header="Edit Performers"
+        header="Edit Performer"
         accept={{
           onClick: onSave,
           text: intl.formatMessage({ id: "actions.apply" }),
